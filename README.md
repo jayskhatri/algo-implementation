@@ -6,7 +6,7 @@ Just clone the repository and run the Java programs in your IDE.
 ## Prerequisites
 1. You should have JAVA IDE.
 
-## Authors
+## Author
 - Jay Khatri --[jayskhatri](https://github.com/jayskhatri)
 
 ## License
