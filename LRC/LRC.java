@@ -61,11 +61,15 @@ public class LRC {
     public static String binarycon(int value){
         int a;
         String bin="";
+        String bin1="";
         while(value>0){
             a=value%2;
             bin=bin+""+a;
             value/=2;
         }
-        return bin;
+        for(int i=bin.length()-1;i>=0;i--){
+            bin1+=bin.charAt(i);
+        }
+        return bin1;
     }   
 }
