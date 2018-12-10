@@ -1,4 +1,4 @@
-# LRC
+# LRC (Sender Side LRC)
 [Longitudinal Redundancy Check](https://en.wikipedia.org/wiki/Longitudinal_redundancy_check)
 A longitudinal redundancy check (LRC), or horizontal redundancy check, is a form of redundancy check that is applied independently to each of a parallel group of bit streams. The data must be divided into transmission blocks, to which the additional check data is added. 
 
