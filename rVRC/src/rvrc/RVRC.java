@@ -46,7 +46,13 @@ public class RVRC {
                 String myString="";
                 System.out.println("Message received Successfully");
                 for(String token1 : token){
-                    myString=myString+ token1+'\b'+" ";
+                    //myString=myString+ token1+'\b'+" ";
+                    /*
+                        Adding backspace character does not remove the last character. Instead it adds
+                        backspace at the end of the string, hence the number format exception
+                        Using substring to remove the last character instead. 
+                    */
+                    myString=myString+ token1.substring(0,token1.length()-1) +" ";
                     
                 }
                 String[] t = myString.split(" ");
