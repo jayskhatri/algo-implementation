@@ -87,3 +87,4 @@ int main()
 
 // This code is contributed
 // by Akanksha_Rai
+//source:https://www.geeksforgeeks.org/ternary-search/?ref=lbp
